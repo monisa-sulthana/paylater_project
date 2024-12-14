@@ -1,0 +1,34 @@
+<html>
+    <head>
+        <title>payment</title>
+        <link rel = "stylesheet" href = "../static/css/style.css">
+    </head>
+    <body>
+        <table>
+            <thead>
+                <tr>
+                    <td>payment_id</td>
+                    <td>user_id</td>
+                    <td>app</td>
+                    <td>amount</td>
+                    <td>fees</td>
+                    <td>to_merchant</td>
+                    <td>date_time</td>
+                </tr>
+            </thead>
+            <tbody>
+                {% for user in output %}
+                    <tr>
+                        <td>{{user.payment_id}}</td>
+                        <td>{{user.user_id}}</td>
+                        <td>{{user.app}}</td>
+                        <td>{{user.amount}}</td>
+                        <td>{{user.fees}}</td>
+                        <td>{{user.to_merchant}}</td>
+                        <td>{{user.date_time}}</td>
+                    </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </body>
+</html>

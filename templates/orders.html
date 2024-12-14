@@ -1,0 +1,32 @@
+<html>
+    <head>
+        <title>Order</title>
+        <link rel = "Stylesheet" href = "../static/css/style.css">
+    </head>
+    <body>
+        <table>
+            <thead>
+                <tr>
+                    <td>order_id</td>
+                    <td>user_id</td>
+                    <td>item</td>
+                    <td>price</td>
+                    <td>app</td>
+                    <td>date_time</td>
+                </tr>
+            </thead>
+            <tbody>
+                {% for user in output %}
+                    <tr>
+                        <td>{{user.order_id}}</td>
+                        <td>{{user.user_id}}</td>
+                        <td>{{user.item}}</td>
+                        <td>{{user.price}}</td>
+                        <td>{{user.app}}</td>
+                        <td>{{user.date_time}}</td>
+                    </tr> 
+                {% endfor %}               
+            </tbody>
+        </table>
+    </body>
+</html>

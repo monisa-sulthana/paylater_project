@@ -1,3 +1,71 @@
+body{
+    background-color: black;
+    color: aliceblue;
+}
+.top-nav{
+    float: left;
+    width: 100%;
+
+}
+
+.top-nav li{
+    display: inline;
+    float: left;
+    width: 20%;
+    font-size: 30px;
+    text-align: center;
+    background-color: green;
+    padding: 1% 0% 1% 0%;
+}
+
+
+.top-nav a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.side-nav{
+    float: left;
+    width: 15%;
+    
+    height: 950px;
+    background-color: aqua;
+    padding: 1% 0.5% 1% 0%;
+    
+}
+
+.side-nav li{
+    list-style-type: none;
+    font-size: 50px;
+    
+    color: aliceblue; 
+    text-align: center;
+    background-color: aqua;
+}
+
+
+.image-div h1{
+    float: left;
+    width: 100%;
+    text-align: center;
+    font-family: "Rubik Doodle Shadow", serif;
+    font-weight: 400;
+    margin: 17% 0% 0% 0%;
+    font-weight: 100px;
+    font-size: 40px;
+
+}
+
+.bottom-div{
+    float: left;
+    width: 100%;
+    margin: 0.1% 0% 0% 0%;
+    text-align: center;
+    color: aliceblue;
+    font-size: 20px;
+    
+}
+
 .merchant-div{
     float: left;
     width: 100%;
