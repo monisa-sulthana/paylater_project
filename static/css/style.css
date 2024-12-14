@@ -1,0 +1,21 @@
+.merchant-div{
+    float: left;
+    width: 100%;
+}
+
+.merchant-div h1{
+    float: left;
+    width: 100%;
+    text-align: center;
+    font-size: 35px;
+    margin: 5% 0% 5% 0%;
+}
+
+
+.register-div input, .register-div button{
+    float: left;
+    width: 40%;
+    border: 2px solid black;
+    margin: 1% 1% 1% 30%;
+    font-size: 20px;
+}
